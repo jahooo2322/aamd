@@ -15,9 +15,9 @@ function Home() {
 
  <Menu/>
 
-<div className="content">
 
-<div className="texto">
+
+
   
 <div className="container">
  <Head>
@@ -125,15 +125,13 @@ de autorização, sendo vedada a interferência estatal em seu funcionamento”
  
 </div>
 
-</div>
-
-</div>
 
 
 </div>
 
 
 </div>
+
 
 
   )

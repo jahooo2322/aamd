@@ -1,5 +1,6 @@
 import '../styles/globals.css'
 import  '../styles/menu.css'
+import  '../styles/home.css'
 
 
 

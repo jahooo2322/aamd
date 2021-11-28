@@ -11,13 +11,13 @@ function Home() {
 <div>
 
 
-<div class="mainMenu">
+<div className="mainMenu">
 
  <Menu/>
 
-<div class="content">
+<div className="content">
 
-<div class="texto">
+<div className="texto">
   
 <div className="container">
  <Head>
@@ -53,7 +53,7 @@ function Home() {
   
    </p>
 
-   <div class="grid">
+   <div className="grid">
      <a href="http://alerjln1.alerj.rj.gov.br/constfed.nsf/fc6218b1b94b8701032568f50066f926/54a5143aa246be25032565610056c224?OpenDocument"
      target="_blank" className="card" rel="noopener noreferrer">
        <h2>Constituição Federal</h2>

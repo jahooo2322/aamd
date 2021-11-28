@@ -23,18 +23,18 @@ const Menu = (props) => (
    <div>
   
 
-  <div class="nav">
+  <div className="nav">
     
-<div class="background-one">
-  <div class="link-container1">
-    <a class="link-one" href="/">Inicío</a>
+<div className="background-one">
+  <div className="link-container1">
+    <a className="link-one" href="/">Inicío</a>
   </div>
 
 </div>
 
 
-<div class="background-two link-container1">
-  <a class="link-two" href="/missao">Missão</a>
+<div className="background-two link-container1">
+  <a className="link-two" href="/missao">Missão</a>
 </div>
 
 

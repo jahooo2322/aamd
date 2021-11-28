@@ -9,13 +9,13 @@ function Home() {
 <div>
 
 
-<div class="mainMenu">
+<div className="mainMenu">
 
  <Menu/>
 
-<div class="content">
+<div className="content">
 
-<div class="texto">
+<div className="texto">
   
 <div className="container">
  <Head>

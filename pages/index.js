@@ -55,7 +55,7 @@ function Home() {
 
    <div className={styles.grid}>
      <a href="http://alerjln1.alerj.rj.gov.br/constfed.nsf/fc6218b1b94b8701032568f50066f926/54a5143aa246be25032565610056c224?OpenDocument"
-     target="_blank" className={styles.card}>
+     target="_blank" className={styles.card} rel="noopener noreferrer">
        <h2>Constituição Federal</h2>
        <p> 
          “Todos são iguais perante a lei, sem distinção de qualquer natureza, 
@@ -68,7 +68,7 @@ function Home() {
  
 
      <a href="https://www.politize.com.br/artigo-5/liberdade-de-associacao/" target="_blank" 
-     className={styles.card}>
+     className={styles.card} rel="noopener noreferrer">
      <p>
      <h2>Liberdade de associação</h2>
      A liberdade de associação é garantida no inciso XVII do Artigo 5º da Constituição, 
@@ -80,8 +80,8 @@ function Home() {
 
      <a
        href="https://www.politize.com.br/artigo-5/livre-constituicao-de-associacoes/" target="_blank"
-       className={styles.card}
-     >
+       className={styles.card} rel="noopener noreferrer">
+
        <h2>CONSTITUIÇÃO FEDERAL ART. 5º&rarr;</h2>
 
 <p> INCISO XVIII – LIVRE CONSTITUIÇÃO DE ASSOCIAÇÕES </p>
@@ -97,7 +97,7 @@ de autorização, sendo vedada a interferência estatal em seu funcionamento”
 
      <a
        href="https://www.politize.com.br/artigo-5/livre-constituicao-de-associacoes/#:~:text=a%20livre%20constitui%C3%A7%C3%A3o%20de%20associa%C3%A7%C3%B5es%20e%20cooperativas,uma%20vida%20mais%20justa%2C%20livre%20e%20igualit%C3%A1ria."
-       className={styles.card} target="_blank">
+       className={styles.card} target="_blank" rel="noopener noreferrer">
          
        <h2>UNIÃO: UM DIREITO DE TODOS &rarr;</h2>
        <p>

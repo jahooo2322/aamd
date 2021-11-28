@@ -8,10 +8,7 @@ const Footer = (props) => (
    
 
    <footer class="footer">
-   <a
-     href="/"
-     rel="noopener noreferrer"
-   >
+   <a href="/" rel="noopener noreferrer">
     
      <span>
      <Image src="/images/logotip.png" alt="Logo AAMD" width={100} height={100} />

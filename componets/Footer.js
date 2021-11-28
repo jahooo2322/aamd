@@ -7,7 +7,7 @@ const Footer = (props) => (
     <div>
    
 
-   <footer class="footer">
+   <footer className="footer">
    <a href="/" rel="noopener noreferrer">
     
      <span>

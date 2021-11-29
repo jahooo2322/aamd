@@ -1,9 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
-
 import Menu from '../componets/Menu'
 import Footer from '../componets/Footer'
-
 
 
 function Home() {
@@ -16,8 +14,6 @@ function Home() {
  <Menu/>
 
 
-
-  
 <div className="container">
  <Head>
    <title>Associação dos Ambulantes</title>
@@ -33,7 +29,6 @@ function Home() {
  </Head>
 
  <main className="main">
-
 
 
 <Image src="/images/logotip.png" alt="Logo AAMD" width={200} height={200} />

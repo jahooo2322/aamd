@@ -17,10 +17,6 @@ function Home() {
 
 
 
- <div className="content">
-
-<div className="texto">
-
   
 <div className="container">
  <Head>
@@ -131,19 +127,18 @@ de autorização, sendo vedada a interferência estatal em seu funcionamento”
    </div>
  </main>
 
- <Footer/>
+ 
  
 </div>
 
+<Footer/>
+
+</div>
 
 
 </div>
 
 
-</div>
-
-</div>
-</div>
 
   )
 }

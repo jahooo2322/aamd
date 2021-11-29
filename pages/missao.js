@@ -13,9 +13,9 @@ function Home() {
 
  <Menu/>
 
-<div className="content">
 
-<div className="texto">
+
+
   
 <div className="container">
  <Head>
@@ -27,8 +27,6 @@ function Home() {
    <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com"/>
 <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"/>
-
-
 
 
  </Head>
@@ -54,19 +52,20 @@ function Home() {
  </main>
 
 
- <Footer/>
-
-</div>
-
-</div>
-
-</div>
 
 
 </div>
 
 
+<Footer/>
+
 </div>
+
+
+
+
+</div>
+
 
 
   )

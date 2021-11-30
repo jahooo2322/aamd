@@ -16,8 +16,6 @@ function Conteudo() {
 
  <Menu/>
 
-
- <Image src="/images/aa.png" alt="Logo AAMD" width={500} height={170} />
  
 <div className="container">
  
@@ -28,7 +26,7 @@ function Conteudo() {
  
 
 
-   <iframe width="560" height="415" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  
+   <iframe className="iframe" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  
    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 
@@ -40,7 +38,7 @@ function Conteudo() {
      O Ambulante
    </p>
 
-   <iframe width="560" height="415" src="https://www.youtube.com/embed/_miVZih23Ro" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+   <iframe className="iframe" src="https://www.youtube.com/embed/_miVZih23Ro" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
  
 
 <p className="description">
@@ -49,15 +47,15 @@ Apresentação: Associação Brasileira de Desenvolvimento
 
 
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/kccmE9kInrg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe className="iframe" src="https://www.youtube.com/embed/kccmE9kInrg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
  </main>
 
-
+ <Footer/>
 </div>
 
 
-<Footer/>
+
 
 </div>
 

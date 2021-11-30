@@ -27,12 +27,13 @@
 
 
 .nav{
+  position: fixed;
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: 1, 1fr;
 width: 100%;
 height: 80px;
-
+z-index: 999999;
 }
 
 .background-one {
@@ -321,14 +322,24 @@ a {
 .whats{
   position: fixed;
   top: 22em;
-  margin-left: 52%;
+  margin-left: 65%;
  z-index: 9999;
  float: right;
 
 }
 
 
+.iframe{
 
+  width: 100%;
+  height: 280px;
+}
+
+.carta{
+
+  top:0px;
+
+}
 
 @media (min-width:600px) {
   .whats{
@@ -339,6 +350,19 @@ a {
    float: right;
   
   }
+
+  .iframe{
+
+    width: 100%;
+    height:500px;;
+  }
+  
+  .carta{
+
+    margin-top:1em;
+  
+  }
+
 }
 
 

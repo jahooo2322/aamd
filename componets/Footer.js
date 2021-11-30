@@ -9,11 +9,9 @@ const Footer = (props) => (
 
 
    <footer className="footer">
+
    <a href="/" rel="noopener noreferrer">
-    
-     <span>
      <Image src="/images/logotip.png" alt="Logo AAMD" width={100} height={100} />
-     </span>
    </a>
  </footer>
  

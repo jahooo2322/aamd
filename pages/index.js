@@ -30,15 +30,20 @@ function Home() {
 </div>
 
 <div className="container">
-
+<span className="logoo">
 <Image src="/images/aa.png" alt="Logo AAMD" width={500} height={170} />
+</span>
+<div className="carta">
+<Image src="/images/carta.png" alt="Logo AAMD" width={600} height={320}  />
+</div>
 
 <p className="description">
-     Sejam bem vindos ao nosso site. Estamos construindo... Apoie esse Projeto.
+     Sejam bem vindos ao nosso site. Apoie esse Projeto.
    </p>
 
  <main className="main">
- <iframe width="560" height="415" src="https://www.youtube.com/embed/sua2AzwkkiU" title="YouTube video player" 
+
+ <iframe  className="iframe"  src="https://www.youtube.com/embed/sua2AzwkkiU" title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
  ></iframe>
 
@@ -51,7 +56,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
    </p>
 
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/e8AxbhHry8g" title="YouTube video player"  
+<iframe className="iframe" src="https://www.youtube.com/embed/e8AxbhHry8g" title="YouTube video player"  
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   
    <p className="description">
@@ -130,11 +135,10 @@ de autorização, sendo vedada a interferência estatal em seu funcionamento”
 
 <div>
 
-<iframe width="560" height="415" src="https://www.youtube.com/embed/S64VOCY9lRc" title="YouTube video player" 
- allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-></iframe>
   </div>
 
+  <iframe className="iframe" src="https://www.youtube.com/embed/S64VOCY9lRc" title="YouTube video player" 
+ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" ></iframe>
   
    </div>
  </main>

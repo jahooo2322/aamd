@@ -26,7 +26,7 @@ function Missao() {
 
  <main className="main">
 
-<Image src="/images/logotip.png" alt="Logo AAMD" width={200} height={200} />
+<Image src="/images/aa.png" alt="Logo AAMD" width={600} height={170} />
 
 
 
@@ -41,15 +41,12 @@ function Missao() {
 
 
 
-<Image src="/images/assoc.jpg" alt="Logo AAMD" width={500} height={200} />
+<Image src="/images/fundo01.jpg" alt="Logo AAMD" width={800} height={500} />
 
  
-<p className="description">
-    Praia do Francês. Marechal Deodoro. AL
-   </p>
 
    <p className="description">
-    Nossa Praia
+    Nossa Praia linda Praia do Francês
    </p>
 
    <Image src="/images/frances-praia.jpg" alt="Logo AAMD" width={800} height={500} />
@@ -58,12 +55,12 @@ function Missao() {
  </main>
 
 
-
+ <Footer/>
 
 </div>
 
 
-<Footer/>
+
 
 </div>
 

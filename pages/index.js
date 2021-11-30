@@ -38,7 +38,7 @@ function Home() {
    </p>
 
  <main className="main">
- <iframe width="80%" height="415" src="https://www.youtube.com/embed/sua2AzwkkiU" title="YouTube video player" 
+ <iframe width="100%" height="415" src="https://www.youtube.com/embed/sua2AzwkkiU" title="YouTube video player" 
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
  ></iframe>
 
@@ -51,7 +51,7 @@ allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; pic
    </p>
 
 
-<iframe width="80%" height="415" src="https://www.youtube.com/embed/e8AxbhHry8g" title="YouTube video player"  
+<iframe width="100%" height="415" src="https://www.youtube.com/embed/e8AxbhHry8g" title="YouTube video player"  
 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
   
    <p className="description">

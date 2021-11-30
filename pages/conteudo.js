@@ -28,7 +28,7 @@ function Conteudo() {
  
 
 
-   <iframe width="100%" height="515" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  
+   <iframe width="560" height="415" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  
    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 
@@ -40,7 +40,7 @@ function Conteudo() {
      O Ambulante
    </p>
 
-   <iframe width="560" height="315" src="https://www.youtube.com/embed/_miVZih23Ro" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+   <iframe width="560" height="415" src="https://www.youtube.com/embed/_miVZih23Ro" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
  
 
 <p className="description">
@@ -49,7 +49,7 @@ Apresentação: Associação Brasileira de Desenvolvimento
 
 
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kccmE9kInrg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+<iframe width="560" height="415" src="https://www.youtube.com/embed/kccmE9kInrg" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
  </main>
 

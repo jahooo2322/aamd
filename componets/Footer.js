@@ -7,6 +7,7 @@ const Footer = (props) => (
     <div>
    
 
+
    <footer className="footer">
    <a href="/" rel="noopener noreferrer">
     

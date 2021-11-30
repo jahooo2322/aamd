@@ -24,7 +24,7 @@ function Home() {
 
 
 <div styles="position: absolute">
-<a href="https://wa.me/5582987086545" target="_blank" className="whats">
+<a href="https://wa.me/5582987086545" target="_blank" className="whats" rel="noopener noreferrer">
  <Image src="/images/whats.png"  alt="Logo AAMD" width={130} height={130} />
 </a>
 </div>
@@ -39,8 +39,8 @@ function Home() {
 
  <main className="main">
  <iframe width="80%" height="415" src="https://www.youtube.com/embed/sua2AzwkkiU" title="YouTube video player" 
- frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
- allowfullscreen></iframe>
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+ ></iframe>
 
 <p className="description">
      Unidos em Associações você estará mais forte para garantir o seu direito. 

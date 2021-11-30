@@ -28,7 +28,8 @@ function Conteudo() {
  
 
 
-   <iframe width="100%" height="515" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+   <iframe width="100%" height="515" src="https://www.youtube.com/embed/CqE82SDuiZI" title="YouTube video player"  
+   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
 
 
    <p className="description">

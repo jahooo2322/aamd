@@ -1,16 +1,25 @@
 import Head from 'next/head'
 import Image from 'next/image'
+
+
+
 import Menu from '../componets/Menu'
 import Footer from '../componets/Footer'
-import Dictaphone from '../componets/Dictaphone'
+//import Dictaphone from '../componets/Dictaphone'
 import HeadLayout from '../componets/HeadLeyout'
 
+//import Falar from '../componets/Fala'
+import Contar from '../componets/Contador'
 
-function Home() {
+
+
+
+function Home() { 
   return (
 <div>
 
 <Head>
+ 
  
 
 <HeadLayout/>
@@ -18,6 +27,8 @@ function Home() {
 
 
  </Head>
+
+ 
 
 <Menu/>
 
@@ -30,6 +41,10 @@ function Home() {
 </div>
 
 <div className="container">
+
+
+<Contar/>
+
 <span className="logoo">
 <Image src="/images/aa.png" alt="Logo AAMD" width={500} height={170} />
 </span>

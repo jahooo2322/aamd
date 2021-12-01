@@ -16,7 +16,7 @@ em componetes react
 */
 //import Link from 'next/link'
 //import  '../styles/Menu.module.css';
-import Image from 'next/image'
+//import Image from 'next/image'
 
 const Menu = (props) => (
 

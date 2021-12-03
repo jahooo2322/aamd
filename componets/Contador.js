@@ -11,12 +11,10 @@ const { speak } = useSpeechSynthesis()
 
 const [buttonName, setButton] = useState('Fale com o atendente virtual')
 
-function rolar() { 
-    
-    window.scrollTo(0, 500); 
 
+function rolar(x, y) { 
+    window.scrollTo(x, y); 
 }
-
   
    function addContador(){
 
@@ -32,8 +30,6 @@ function rolar() {
            
            speak({text: value})
 
-          // quando chamar speak aciona o cronometro, o tempo da fala do objeto, chama a função
-
           function depois(){
           // seta num novo nome para o botao
            setButton(buttonName)  
@@ -45,16 +41,72 @@ function rolar() {
 
          if(contador == 2){
 
-            const value = 'Muito bem... Eu posso começar a falar que temos três sessões no site. A primeira é essa página.  A página inicial.... na segunda sessão temos o conteúdo de vídeo com histórias inspiradoras,... de ambulantes exemplos, a terceira sessão é a nossa missão, onde queremos chegar  na construção da associação dos ambulantes..... No canto inferior você pode entrar em contato pelo zap. '
+         
+
+            const   value = 'Muito bem... Eu posso começar a falar que temos três sessões no site. A primeira é essa página.  A página inicial.... na segunda sessão temos o conteúdo de vídeo com histórias inspiradoras,... de ambulantes exemplos, a terceira sessão é a nossa missão, onde queremos chegar  na construção da associação dos ambulantes..... No canto inferior você pode entrar em contato pelo zap. '
             const   buttonName = 'Entendi. Leia essa página para mim.'
 
             speak({text: value})
 
+
+            function depois0() {
+            function mudaCor() {
+                document.getElementById("manipula1").style.background = "#ffff00";
+                }
+                mudaCor()
+            } setTimeout(depois0, 7000)
+
+
+            
+            function depois1() {
+                function mudaCor() {
+                    document.getElementById("manipula1").style.background = "#4684f8";
+                    document.getElementById("manipula2").style.background = "#ffff00";
+                    }
+                    mudaCor()
+                } setTimeout(depois1, 11000)
+
+
+
+            
+                function depois2() {
+                    function mudaCor() {
+                        document.getElementById("manipula1").style.background = "#4684f8";
+                        document.getElementById("manipula2").style.background = "#4684f8";
+                        document.getElementById("manipula3").style.background = "#ffff00";
+                        }
+                        mudaCor()
+                    } setTimeout(depois2, 20000)
+
+
+                    function depois3() {
+                        function mudaCor() {
+                            document.getElementById("manipula1").style.background = "#4684f8";
+                            document.getElementById("manipula2").style.background = "#4684f8";
+                            document.getElementById("manipula3").style.background = "#ffff00";
+                            }
+                            mudaCor()
+                        } setTimeout(depois3, 20000)
+
+
+                        function depois4() {
+                            function mudaCor() {
+                                document.getElementById("manipula1").style.background = "#4684f8";
+                                document.getElementById("manipula2").style.background = "#4684f8";
+                                document.getElementById("manipula3").style.background = "#4684f8";
+                                }
+                                mudaCor()
+
+                            } setTimeout(depois4, 25000)
+
+
+                                    
+            // outro tempo
             function depois() {
             setButton(buttonName)
             }
-            setTimeout(depois, 6000)
-            
+            setTimeout(depois, 10000)
+
 
         
         }
@@ -73,9 +125,8 @@ function rolar() {
 
         function depois(){
         setButton(buttonName)
-        // preciso que ele vá para 4 sem apertar o botao
-       // setContar(contador = 4)
-        rolar()
+   
+        rolar(0, 500)
 
      // pegando o valor aqui do elemento pelo id, e mandar falar
      const value = document.getElementById("desc").firstChild.nodeValue + "..... este vídeo fala sobre as associações, é uma ótima oportunidade de conhecer melhor o que é uma associação. Assista este vídeo..."
@@ -83,7 +134,6 @@ function rolar() {
 
 
         }
-
         // chamar uma função 3 seg. depois
         setTimeout(depois, 20000);
 
@@ -91,13 +141,9 @@ function rolar() {
 
             }
 
-         if(contador == 4){
+        if(contador == 4){
 
-            function rolar1() { 
-                window.scrollTo(0, 1050); 
-            }
-
-rolar1()
+        rolar(0, 1050)
  // pegando o valor aqui do elemento pelo id, e mandar falar
  const value = document.getElementById("desc2").firstChild.nodeValue + "..... este vídeo fala sobre o voluntário... Assistem e entedam a importância de participar"
  const buttonName = 'Continue lendo o site'
@@ -108,8 +154,6 @@ rolar1()
     setButton(buttonName)
     }
     setTimeout(depois, 6000)
-
-
 
          }
          
@@ -125,10 +169,8 @@ rolar1()
             const buttonName = 'Continue lendo...'
             speak({text: value})
             
-            function rolar2() { 
-                window.scrollTo(0, 1850); 
-            }
-            rolar2()
+          
+            rolar(0, 1850)
 
             function depois() {
                 // depois de 6 segundos muda o nome do botao
@@ -160,15 +202,9 @@ rolar1()
                         const buttonName = 'Voltar ao início...'
                         speak({text: value})
                         
-                        function rolar3() { 
-                            window.scrollTo(0, 2200); 
-                        }
-                        rolar3()
+                        rolar(0, 2200)
 
-                        function rolar4() { 
-                            window.scrollTo(0, 2900); 
-                        }
-                    
+                     
 
                         
                         function depois() {
@@ -178,12 +214,10 @@ rolar1()
                            setTimeout(depois, 6000)
 
 
-
-                           function depois4() {
-                            // depois de 16 segundos muda o nome do botao
-                           rolar4()
+                           function depois4() {                            
+                           rolar(0, 3000)
                            }
-                           setTimeout(depois4, 20000)
+                           setTimeout(depois4, 24000)
 
 
                         
@@ -194,10 +228,8 @@ rolar1()
                                  if(contador == 7){
                                     const buttonName = 'Fale com o atendente virtual'
 
-                                    function rolar5() { 
-                                        window.scrollTo(0, 0); 
-                                    }
-                                    rolar5()
+                                   
+                                    rolar(0,0)
 
                                     setContar(contador = 1)
                                     setButton(buttonName)

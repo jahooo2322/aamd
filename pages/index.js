@@ -35,7 +35,7 @@ function Home() {
 
 <div styles="position: absolute">
 <a href="https://wa.me/5582987086545" target="_blank" className="whats" rel="noopener noreferrer">
- <Image src="/images/whats.png"  alt="Logo AAMD" width={130} height={130} />
+ <Image src="/images/whats.png"  alt="Logo AAMD" width={130} height={130} id="whats"/>
 </a>
 </div>
 
@@ -51,7 +51,7 @@ function Home() {
 </div>
 
 <p className="description" id="desc">
-     Sejam bem vindos ao nosso site. Todo apoio este Projeto.
+     Sejam bem vindos ao nosso site. Todo apoio a este Projeto.
    </p>
 
  <main className="main">

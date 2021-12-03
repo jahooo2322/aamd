@@ -25,7 +25,7 @@ const Menu = (props) => (
 
   <div className="nav">
  
-<div className="background-one">
+<div className="background-one" id="manipula1">
   <div className="link-container1">
     <a className="link-one" href="/">
       <span className="material-icons">home</span>
@@ -34,7 +34,7 @@ const Menu = (props) => (
 
 </div>
 
-<div className="background-two link-container1">
+<div className="background-two link-container1" id="manipula2">
   <a className="link-two" href="/conteudo">
   <span class="material-icons">
 videocam
@@ -42,7 +42,7 @@ videocam
   </a>
 </div>
 
-<div className="background-three link-container1">
+<div className="background-three link-container1" id="manipula3">
   <a className="link-three" href="/missao">Missão</a>
 </div>
 
